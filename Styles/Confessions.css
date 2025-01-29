@@ -1,0 +1,150 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Reset styles */
+body, h1, h2, h3, p, ul, li, a, input, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #00796b, #004d40);
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 100px;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+    color: #e0f7fa;
+}
+
+/* Static Confessions Header */
+.confessions-header {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-color: #004d40;
+}
+
+.confessions-header img {
+    width: 100%;
+    max-width: 626px;
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: 0 auto;
+}
+
+.header-text {
+    padding: 20px 0;
+    color: white;
+    background: #004d40;
+}
+
+.header-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header-text p {
+    font-size: 1.2rem;
+}
+
+/* Confession Card */
+.confession-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 850px;
+    padding: 25px;
+}
+
+.confession-content h2 {
+    font-size: 1.8rem;
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+.confession-content p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #00796b;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background: #00796b;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #004d40;
+}
+
+/* Footer styles */
+footer {
+    background-color: #004d40;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
